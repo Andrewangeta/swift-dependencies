@@ -69,7 +69,6 @@ let package = Package(
       ]
     ),
   ],
-  swiftLanguageVersions: [.v6]
 )
 
 #if !os(macOS) && !os(WASI)
